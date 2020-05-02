@@ -52,6 +52,7 @@
 						<th scope="col">Is Sportive?</th>
 						<th scope="col">Is Academic?</th>
 						<th scope="col">Result</th>
+						<th scope="col">Action</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -64,6 +65,10 @@
 							<td>${student.issport}</td>
 							<td>${student.isacademic}</td>
 							<td>${student.result}</td>
+							<td>
+								<button class="btn btn-primary" onclick="">Edit</button>
+								<button class="btn btn-danger" onclick="">Remove</button>
+							</td>
 						</tr>
 					</c:forEach>
 				</tbody>
